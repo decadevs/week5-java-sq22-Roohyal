@@ -12,8 +12,7 @@ public class LibraryServiceImplementation2 implements LibraryService2 {
 
     Queue<Person> personQueue;
 
-    public LibraryServiceImplementation2() {
-        personQueue = new LinkedList<>();
+    public LibraryServiceImplementation2() { personQueue = new LinkedList<>();
     }
  // TO ADD TO A QUEUE
     @Override
